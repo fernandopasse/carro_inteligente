@@ -3,7 +3,7 @@ Author: Kushagra Gour (http://kushagragour.in)
 MIT Licensed
 */
 (function () {
-  var searchFile = 'http://fernandopasse.github.io/carro_inteligente/feed.xml',
+  var searchFile = '/feed.xml',
     searchEl,
     searchInputEl,
     searchResultsEl,
