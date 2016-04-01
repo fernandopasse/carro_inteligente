@@ -8,11 +8,11 @@ description: > # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 baseurl: "/carro_inteligente" # the subpath of your site, e.g. /blog
 url: "http://fernandopasse.github.io" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
-google_play: 'GDGX'
-google_plus_com: '109485346959707049693'  # Community link
-google_plus_per: '+GDGManagua'  #Personal link
+twitter_username: 
+github_username:  fernandopasse
+google_play: ''
+google_plus_com: ''  # Community link
+google_plus_per: ''  #Personal link
 facebook_app_id: 12345
 
 # Layout settings
