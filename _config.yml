@@ -31,8 +31,8 @@ more_vert:
     name: Cool Option 3
     link: www.myawesomelink.com
 
-disqus: false
-disqus_shortname: 'gdgmanagua'
+disqus: true
+disqus_shortname: 'carrointeligente'
 
 # Build settings
 markdown: kramdown
