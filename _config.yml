@@ -10,7 +10,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Pi, câmera e alguns sensores
 baseurl: "/carro_inteligente" # the subpath of your site, e.g. /blog
 url: "http://fernandopasse.github.io" # the base hostname & protocol for your site
-twitter_username: 
+twitter_username: fernandopasse
 github_username:  fernandopasse
 google_play: ''
 google_plus_com: ''  # Community link
