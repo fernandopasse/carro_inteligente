@@ -1,40 +1,21 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
-# Site settings
-title: Carro Inteligente
-email: fernando.passe@ufv.br
+title: Your awesome title
+email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Este projeto visa contruir uma das aplicações possíveis da visão computacional, que consiste
-  em aplicar estes conceitos em um veículo afim de torná-lo autônomo, ou seja capaz de
-  avaliar as condições do meio e se locomover sem que haja interferência. O protótipo a ser
-  desenvolvido utilizará hardware de baixo custo, para isso utilizaremos Arduino, Raspberry
-  Pi, câmera e alguns sensores
-baseurl: "/carro_inteligente" # the subpath of your site, e.g. /blog
-url: "http://fernandopasse.github.io" # the base hostname & protocol for your site
-twitter_username: 
-github_username:  fernandopasse
-google_play: ''
-google_plus_com: ''  # Community link
-google_plus_per: ''  #Personal link
-facebook_app_id: 12345
-
-# Layout settings
-header_type: default  # values [ drawer, default ]
-post_type: highlight    # values [ highlight, default ]
-pagination_type: default  # values [ ops, default ]
-
-more_vert:
-  option1:
-    name: Pontos de controle
-    link: www.myawesomelink.com
-  option2:
-    name: Cool Option 2
-    link: www.myawesomelink.com
-  option3:
-    name: Cool Option 3
-    link: www.myawesomelink.com
-
-disqus: true
-disqus_shortname: 'carrointeligente'
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "carro_inteligente" # the subpath of your site, e.g. /blog
+url: "http://fernandopasse.github.io/" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
 
 # Build settings
 markdown: kramdown
