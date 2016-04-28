@@ -8,8 +8,8 @@ description: > # this means to ignore newlines until "baseurl:"
   avaliar as condições do meio e se locomover sem que haja interferência. O protótipo a ser
   desenvolvido utilizará hardware de baixo custo, para isso utilizaremos Arduino, Raspberry
   Pi, câmera e alguns sensores
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://fernandopasse.website" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://fernandopasse.website/" # the base hostname & protocol for your site
 twitter_username: fernandopasse
 github_username:  fernandopasse
 google_play:
