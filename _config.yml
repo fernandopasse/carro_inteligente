@@ -7,7 +7,7 @@ description: > # this means to ignore newlines until "baseurl:"
   em aplicar estes conceitos em um veículo afim de torná-lo autônomo, ou seja capaz de
   avaliar as condições do meio e se locomover sem que haja interferência. O protótipo a ser
   desenvolvido utilizará hardware de baixo custo, para isso utilizaremos Arduino, Raspberry
-  Pi, câmera e alguns sensores.
+  Pi, câmera e alguns sensores
 baseurl: "/carro_inteligente" # the subpath of your site, e.g. /blog
 url: "http://fernandopasse.github.io" # the base hostname & protocol for your site
 twitter_username: 
