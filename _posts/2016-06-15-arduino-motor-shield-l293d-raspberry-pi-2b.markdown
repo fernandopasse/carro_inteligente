@@ -17,7 +17,7 @@ A placa é composta por 3 CI's, sendo 2 deles o L293D(ponte H dupla) e o outro u
 
 O L293D pode ser alimentado com uma tensão de +4,5-36V (no pino 8) e para alimentação da sua lógica interna é necessário uma tensão de 4,5-5V (no pino 16). 
 
-### Configurando o giro do Motor
+#### Configurando o giro do Motor
 
 Para mudar o giro do motor mudamos para HIGH(1) ou LOW(0), os pinos 2(input 1) e 7(input 2), para o motor conectado nos terminais 3 e 6, além disso devemos coloca o pin 1 (enable 1,2) em HIGH para ativar o motor. Já para o motor conectado nos pinos 11 e 14, utilizamos os pinos 10(input 3) e 15(input 4) para controlar o giro e para ativar o pino 9 (enable 3,4). Veja a tabela abaixo a direção do giro do motor de acordo com a configuração efetuada:
 
@@ -29,7 +29,7 @@ Para mudar o giro do motor mudamos para HIGH(1) ou LOW(0), os pinos 2(input 1) e
 | 1                 | 1            | 1            | Motor não gira                     |
 
 
-### Registrador de deslocamento 74HC595
+#### Registrador de deslocamento 74HC595
 
 
 ![Fig. 2 - Registrador de deslocamente 74HC595](http://fernandopasse.website/img/post/74hc595.png)
