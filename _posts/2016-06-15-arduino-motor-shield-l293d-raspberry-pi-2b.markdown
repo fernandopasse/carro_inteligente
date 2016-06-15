@@ -12,7 +12,7 @@ O Motor Shield é um shield feito para o Arduino que permite que você controle 
 
 A placa é composta por 3 CI's, sendo 2 deles o L293D(ponte H dupla) e o outro um 74HC595(registrador de deslocamento), não é a intenção deste tutorial entrar em detalhes a cerca do funcionamento interno do chip. Vamos começar pelo L293D, este é responsavel por fazer o controle dos motores, controlando o sentido(hórario e anti-horário), além de alimentar o motor, abaixo vemos uma imagem que descreve o funcionamento.
 
-![Fig. 1 - Ponte H dupla L293D](img/post/l293d_pinos.png)
+![Fig. 1 - Ponte H dupla L293D](/img/post/l293d_pinos.png)
 <small>Fig. 1 - Ponte H dupla L293D, disponível em: [Link](http://www.noveldevices.co.uk/ar-project-motor-control)</small>
 
 O L293D pode ser alimentado com uma tensão de +4,5-36V (no pino 8) e para alimentação da sua lógica interna é necessário uma tensão de 4,5-5V (no pino 16). 
@@ -32,7 +32,7 @@ Para mudar o giro do motor mudamos para HIGH(1) ou LOW(0), os pinos 2(input 1) e
 ## Registrador de deslocamento 74HC595
 
 
-![Fig. 2 - Registrador de deslocamente 74HC595](img/post/74hc595.png)
+![Fig. 2 - Registrador de deslocamente 74HC595](/img/post/74hc595.png)
 <small>Fig. 2 - Registrador de deslocamente 74HC595, disponível em: [Link](http://www.protostack.com/blog/2010/05/introduction-to-74hc595-shift-register-controlling-16-leds/)</small>
 
 Este componente é utilizado para economizar portas no Arduino, no nosso caso no Raspberry, pois precisamos conectar 8 portas, o que seria demasiadamente exagerado, com este CI utilizaremos apenas 3 :). Para realizar a conexão com o Raspberry, vamos conectar os pinos 14 (SER), 12 (RCLK) e 11 (SRCLK). O pinos Qn, são conectados nos inputs do L293D, você poderá oberservar ao final desta postagem o esquema completo do shield para entender melhor. Passando corretamente os valores, para o 74HC595, podemos controlar cada motor, veja na tabela abaixo as configurações que devem ser passados:
@@ -48,7 +48,7 @@ Este componente é utilizado para economizar portas no Arduino, no nosso caso no
 |   32  |   M4  | Motor gira no sentido horário      |
 |  128  |   M4  | Motor gira no sentido anti-horário |
 
-![Fig. 3 - Esquema motor Shield](img/post/esquema_motor_shield.jpg)
+![Fig. 3 - Esquema motor Shield](/img/post/esquema_motor_shield.jpg)
 
 Utilizando o esquema acima você pode conectar facilmente o Raspberry ao motor Shield.
 
