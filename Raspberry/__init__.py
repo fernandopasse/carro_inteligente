@@ -9,9 +9,3 @@ if __name__ == "__main__":
     ultrasonicoDireito = Ultrasonico(5, 6)
     ultrasonicoEsquerdo = Ultrasonico(6, 7)
     ultrasonicoTraseiro = Ultrasonico(7, 8)
-
-    while True:
-        print ultrasonicoDireito.leDistanciaCM()
-        print ultrasonicoEsquerdo.leDistanciaCM()
-        print ultrasonicoFrontal.leDistanciaCM()
-        print ultrasonicoTraseiro.leDistanciaCM()
