@@ -3,6 +3,7 @@ import picamera.PiCamera as picamera
 
 DEBUG = True
 
+
 class Camera:
     camera = None
     nomeImagem = None

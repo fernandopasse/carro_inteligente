@@ -1,5 +1,5 @@
-from Raspberry.Classes.Ultrasonico import *
 from Raspberry.Classes.Camera import *
+from Raspberry.Classes.Ultrasonico import *
 
 DEBUG = False
 

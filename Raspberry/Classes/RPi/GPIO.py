@@ -40,17 +40,20 @@ GPIO_NAMES = [
     "GND", "GPIO21"
 ]
 
+
 def setup(pin, mode, pull_up_down=PUD_OFF):
     if DEBUG:
         print "PINO %d, MODO: %s (setup)" % (pin, "OUT" if mode == 2 else "IN")
     else:
         raise NotImplementedError
 
+
 def setmode(mode):
     if DEBUG:
         print "SETOU O MODO: %s (setmode)" % ("BOARD" if mode == 5 else "BCM")
     else:
         raise NotImplementedError
+
 
 def output(pin, value):
     raise NotImplementedError
@@ -60,20 +63,16 @@ def input(pin):
     raise NotImplementedError
 
 
-
 def set_high(pin):
     raise NotImplementedError
-
 
 
 def set_low(pin):
     raise NotImplementedError
 
 
-
 def is_high(pin):
     raise NotImplementedError
-
 
 
 def is_low(pin):
@@ -84,15 +83,12 @@ def output_pins(pins):
     raise NotImplementedError
 
 
-
 def setup_pins(pins):
     raise NotImplementedError
 
 
-
 def input_pins(pins):
     raise NotImplementedError
-
 
 
 def add_event_detect(pin, edge):
@@ -118,7 +114,6 @@ def wait_for_edge(pin, edge):
 def cleanup(pin=None):
     raise NotImplementedError
 
+
 def _validate_pin(pin):
     raise NotImplementedError
-
-
