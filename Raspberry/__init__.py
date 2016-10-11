@@ -8,4 +8,4 @@ if __name__ == "__main__":
     ultrasonicoFrontal = Ultrasonico(3, 4)
     ultrasonicoDireito = Ultrasonico(5, 6)
     ultrasonicoEsquerdo = Ultrasonico(6, 7)
-    ultrasonicoTraseiro = Ultrasonico(7, 8)
+    ultrasonicoTraseiro = Ultrasonico(7, 9)
