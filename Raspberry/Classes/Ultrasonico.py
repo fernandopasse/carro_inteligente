@@ -14,7 +14,7 @@ class Ultrasonico:
     VELOCIDADE_SOM_M = 340.29
 
     # Define e inicializa os pinos TRIGGER e ECHO
-    def __init__(self, pinoTrigger, pinoEcho, mode = True):
+    def __init__(self, pinoTrigger, pinoEcho, mode=True):
         self.pinoEcho = pinoEcho
         self.pinoTrigger = pinoTrigger
         if mode:

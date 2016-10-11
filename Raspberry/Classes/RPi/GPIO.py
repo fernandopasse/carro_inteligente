@@ -1,5 +1,4 @@
 # coding: utf-8
-import random
 
 DEBUG = True
 
@@ -63,8 +62,9 @@ def output(pin, value):
     else:
         raise NotImplementedError
 
+
 def input(pin):
-        raise NotImplementedError
+    raise NotImplementedError
 
 
 def set_high(pin):

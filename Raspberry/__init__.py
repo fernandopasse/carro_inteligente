@@ -4,7 +4,7 @@ from Raspberry.Classes.Ultrasonico import *
 DEBUG = False
 
 if __name__ == "__main__":
-    #Declara os sensores
+    # Declara os sensores
     ultrasonicoFrontal = Ultrasonico(3, 4)
     ultrasonicoDireito = Ultrasonico(5, 6)
     ultrasonicoEsquerdo = Ultrasonico(6, 7)
