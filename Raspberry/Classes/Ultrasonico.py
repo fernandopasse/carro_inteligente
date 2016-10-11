@@ -4,7 +4,7 @@ import time
 
 import RPi.GPIO as GPIO
 
-DEBUG = None
+DEBUG = True
 
 
 class Ultrasonico:
@@ -14,7 +14,7 @@ class Ultrasonico:
     VELOCIDADE_SOM_M = 340.29
 
     # Define e inicializa os pinos TRIGGER e ECHO
-    def __init__(self, pinoTrigger, pinoEcho, mode):
+    def __init__(self, pinoTrigger, pinoEcho, mode = True):
         self.pinoEcho = pinoEcho
         self.pinoTrigger = pinoTrigger
         if mode:
@@ -25,6 +25,10 @@ class Ultrasonico:
         GPIO.setup(pinoEcho, GPIO.IN)
 
     def leDistanciaMetro(self):
+        tempo_total = 0
+        tempo_inicial = 0
+        tempo_final = 0
+
         # Prepara para emitir o sinal
         GPIO.output(self.pinoTrigger, GPIO.LOW)
         time.sleep(1)
@@ -50,6 +54,10 @@ class Ultrasonico:
         return distancia
 
     def leDistanciaCM(self):
+        tempo_total = 0
+        tempo_inicial = 0
+        tempo_final = 0
+
         # Prepara para emitir o sinal
         GPIO.output(self.pinoTrigger, GPIO.LOW)
         time.sleep(1)

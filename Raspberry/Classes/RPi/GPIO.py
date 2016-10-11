@@ -1,4 +1,6 @@
 # coding: utf-8
+import random
+
 DEBUG = True
 
 BCM = 4
@@ -56,11 +58,13 @@ def setmode(mode):
 
 
 def output(pin, value):
-    raise NotImplementedError
-
+    if DEBUG:
+        print "PINO: %d, VALOR: %s (output)" % (pin, "LOW" if value else "HIGH")
+    else:
+        raise NotImplementedError
 
 def input(pin):
-    raise NotImplementedError
+        raise NotImplementedError
 
 
 def set_high(pin):
