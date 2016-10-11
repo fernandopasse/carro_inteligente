@@ -251,7 +251,7 @@ class AMSpi:
         return True
 
     def cleanup(self):
-    	try:
+        try:
             self._shift_write(0)
             self.stop_dc_motors([self.DC_Motor_1, self.DC_Motor_2, self.DC_Motor_3, self.DC_Motor_4])
             GPIO.cleanup()
